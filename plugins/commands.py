@@ -1016,3 +1016,8 @@ async def tutorial(bot, message):
     await save_group_settings(grpid, 'tutorial', tutorial)
     await save_group_settings(grpid, 'is_tutorial', True)
     await reply.edit_text(f"𝙏𝙪𝙩𝙤𝙧𝙞𝙖𝙡 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡 𝘼𝙙𝙙𝙚𝙙\n\n<b>➥  ʏᴏᴜʀ ᴛᴜᴛᴏʀɪᴀʟ ʟɪɴᴋ ꜰᴏʀ {title} ɪs \n\n☞  <code>{tutorial}</code>\n\n★  ʙʏ :  <a href=https://telegram.me/NobiDeveloper>@NobiDeveloper</a></b>", disable_web_page_preview=True)
+
+
+
+
+
